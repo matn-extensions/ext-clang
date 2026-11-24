@@ -1,0 +1,15 @@
+{
+  "id": "matn.ext.clang",
+  "name": "C/C++ Language Server (clangd)",
+  "version": "1.0.0",
+  "author": "Matn Team",
+  "description": "Real-time C and C++ diagnostics, completion, hover, and indexing via clangd",
+  "category": "languages",
+  "type": "lsp",
+  "language": "c_cpp",
+  "server": "clangd",
+  "command": "clangd",
+  "extensions": [".c", ".cpp", ".cc", ".cxx", ".h", ".hpp", ".hh"],
+  "rootMarkers": ["CMakeLists.txt", "compile_commands.json", "Makefile", ".git"],
+  "repository": "https://github.com/matn-extensions/ext-clang"
+}
